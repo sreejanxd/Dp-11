@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logo-item {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo-item img {
+    width: 150px;
+    height: auto;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
