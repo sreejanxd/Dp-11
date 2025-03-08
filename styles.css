@@ -18,23 +18,24 @@ h1 {
 
 .logo-item {
     display: flex;
-    align-items: center;
+    align-items: flex-end; /* লোগো নিচের দিকে আনতে */
     background: white;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 450px;
+    height: 150px; /* কার্ডের উচ্চতা বাড়ানো হয়েছে */
     justify-content: space-between;
 }
 
 .logo-item img {
-    width: 50%;
+    width: 60%; /* লোগোর সাইজ আরও বড় করা হয়েছে */
     height: auto;
     border-radius: 5px;
 }
 
 .logo-details {
-    width: 50%;
+    width: 40%;
     text-align: center;
     padding: 10px;
 }
