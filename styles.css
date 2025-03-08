@@ -24,12 +24,13 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 450px;
-    height: 150px; /* কার্ডের উচ্চতা বাড়ানো হয়েছে */
+    height: 160px; /* কার্ডের উচ্চতা বাড়ানো হয়েছে */
     justify-content: space-between;
+    position: relative;
 }
 
 .logo-item img {
-    width: 60%; /* লোগোর সাইজ আরও বড় করা হয়েছে */
+    width: 60%; /* লোগোর সাইজ বড় করা হয়েছে */
     height: auto;
     border-radius: 5px;
 }
@@ -38,12 +39,17 @@ h1 {
     width: 40%;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 .price {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* দামকে উপরে তুলতে */
+    position: absolute;
+    top: 5px; /* উপরের দিকে নেয়ার জন্য */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .buy-btn {
@@ -54,4 +60,5 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+    margin-top: 30px; /* "Buy" বাটনের জন্য একটু স্পেস দেওয়া হয়েছে */
 }
